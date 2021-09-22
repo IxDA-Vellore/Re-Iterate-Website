@@ -24,7 +24,7 @@ footer {
   margin-top: 6%;
 }
 .links-rishabh {
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: DM Sans;
   font-style: normal;
   font-weight: 500;
@@ -32,6 +32,9 @@ footer {
   line-height: 26px;
   color: white;
   margin-left: 41%;
+}
+.links-rishabh:hover{
+  color: #f24d1d;
 }
 #reg-rishabh {
   display: flex;
@@ -522,72 +525,87 @@ footer {
 
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap');
-
+.check{
+  background-color: #A837DD;
+  height: 1200px;
+  width: 1500px;
+}
+.container-arsal{
+  position: relative;
+}
 .Abouthead-arsal{ 
-    font-family: 'DM Serif Display';
-    font-size: 44px;
-    margin: 88px 0px 12px 212px;
+  font-family: 'DM Serif Display';
+  font-size: 44px;
+  margin: 0px 0px 12px 212px;   
+  padding-top: 88px;
+}
 
-   
-}
 .Aboutpara-arsal{
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 212px;
-    margin-right: 524px;
-    font-size: 20px;
-    font-family: 'DM Sans';
-    
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 212px;
+  margin-right: 524px;
+  font-size: 20px;
+  font-family: 'DM Sans';
+  margin-bottom: 179px;
+  
 }
+
 .purptext-arsal{
 color: #A837DD;
+font-weight: 500;
 
 }
 .redtext-arsal{
-    color: #F24D1D;
+  color: #F24D1D;
+ font-weight: 500;
 }
+
 .wheelimg-arsal{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 382px;
-    height: 416.61px;
-    z-index: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 382px;
+  height: 416.61px;
+  z-index: -1;
 }
+
 .para-arsal{
-    display: block;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
+
 @media (max-width: 1100px){
-    .wheelimg-arsal{
-    position: absolute;
-    top: -35px;
-    right: -2px;
-    width: 201px;
-    height: 199px;
-    z-index: 0;
-    }
-    .Abouthead-arsal{ 
-        font-family: 'DM Serif Display';
-        font-size: 44px;
-        margin: 91px 0px 16px 22px;
-    
-       
-    }
-    .Aboutpara-arsal{
-        display: block;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 22px;
-        margin-right: 22px;
-        font-size: 20px;
-        font-family: 'DM Sans';
-        
-    }
+  .wheelimg-arsal{
+  position: absolute;
+  top: -35px;
+  right: -10px;
+  width: 201px;
+  height: 199px;
+  z-index: -1;
+  }
+  .Abouthead-arsal{ 
+      font-family: 'DM Serif Display';
+      font-size: 44px;
+      margin: 0px 0px 16px 22px; 
+      padding-top: 91px;
+  }
+
+
+  .Aboutpara-arsal{
+      display: block;
+      margin-top: 0px;
+      margin-bottom: 94px;
+      margin-left: 22px;
+      margin-right: 22px;
+      font-size: 20px;
+      font-family: 'DM Sans';
+      
+  }
 }
 
 
@@ -1095,7 +1113,9 @@ margin: 12px 0px;
     }
 
 
-  
+  .navbar{
+    position: fixed;
+  }
 
 
     
@@ -1447,4 +1467,47 @@ color: black;
 
 .spksoc:hover{
   color: #f24d1d !important;;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.faqdiv{
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:5%;
+  margin-bottom:5%;
+  overflow: hidden;
+}
+
+.faqcard{
+  margin-right: 5%;
+  margin-bottom: 3%;
+  border: 5px solid black !important;
+  border-radius: 0px! important;
+}
+.container{
+  align-items: center;
+}
+
+.faqh2{
+  font-family: DM Serif Text;
+  font-size:28px;
+  color: #ffffff;
+  font-weight:bold;
+}
+.faqtext{
+  font-family:DM Sans;
+  font-size:18px;
+  color: #ffffff;
+}
+.faqh1{
+  font-family:DM Serif Display;
+  font-size: 48;
+}
+
+.querycard{
+  align-items: center;
+  margin:auto;
 }
