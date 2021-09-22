@@ -1,0 +1,227 @@
+footer {
+    width: 100%;
+    left: 0px;
+    margin-top: 0%;
+    position: absolute;
+    
+    background-color: #6050ce;
+  }
+  #flex-info-rishabh{
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 4%;
+    height: fit-content;
+    margin-bottom: 5%;
+  }
+  #link-rishabh{
+    display: flex;
+    flex-direction: column;
+    flex:33%;
+    text-align: left;
+    margin-top: 1%;
+  }
+  .li-rishabh{
+    margin-top: 6%;
+  }
+  .links-rishabh {
+    text-decoration: none;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+    margin-left: 41%;
+  }
+  #reg-rishabh {
+    display: flex;
+    flex-direction: column;
+    flex:33%;
+    margin-top: 1%;
+  }
+  #in-rishabh {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 6%;
+  }
+  #button-rishabh {
+    background: #f7cc34;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 5px 4px 0px #000000;
+    height: 52px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 10px;
+    margin:30px 146px 0px 146px;
+  }
+  #but-rishabh{
+    text-decoration: none;
+    color: #000000;
+  }
+  #button1-rishabh{
+    background: #ffffff;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 5px 4px 0px #000000;
+    height: 52px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 10px;
+    margin:20px 146px 0px 146px;
+  }
+  #but1-rishabh{
+    text-decoration: none;
+    color: #000000;
+  }
+  #but-rishabh:hover {
+    color: white;
+  }
+  #but1-rishabh:hover {
+    color: #F24D1D;
+  }
+  #contact-rishabh {
+    display: flex;
+    flex-direction: column;
+    flex:33%;
+    margin-top: 2.4%;
+    text-align: left;
+  }
+  #head-rishabh {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-left: 25%;
+  }
+  #mail-rishabh {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #ffffff ;
+    margin-top: 4%;
+    margin-left: 25%;
+  }
+  .con-rishabh {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-top: 4%;
+    margin-left: 25%;
+  }
+  #logos-rishabh {
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+    align-content: center;
+    text-align: center;
+  }
+  #img-rishabh {
+    display: flex;
+    flex-direction: row;
+    flex:100%;
+    text-align: center;
+    margin-bottom: 0.5%;
+  }
+  .imageBox-rishabh {
+    position: relative;
+    display:flex;
+    flex: 30%;
+    align-content: center;
+    margin-right: 8%;
+  }
+  .imageBox-rishabh .hoverImg-rishabh {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+  .imageBox-rishabh:hover .hoverImg-rishabh {
+    display: block;
+  }
+  .imageBox-rishabh:hover .img-rishabh {
+    filter: drop-shadow(1px 1px 0px #ffffff);
+  }
+  .img-rishabh {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(4px 4px 0px #000000);
+  }
+  #last-rishabh {
+    display: flex;
+    flex:100%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-left: 1%;
+  }
+  @media (max-width: 1200px) {
+      #link-rishabh,#reg-rishabh,#contact-rishabh {
+      flex: 100%;
+      margin-top:1%;
+    }
+    .li-rishabh{
+      margin-top: 3%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .links-rishabh{
+      margin-left: auto;
+    }
+    #in-rishabh{
+      margin-top: 3%;
+    }
+    #button-rishabh{
+      margin: 1% 35% 0% 35%;
+    }
+    #button1-rishabh{
+      margin: 1.3% 35% 0% 35%;
+    }
+    #contact-rishabh{
+      margin-top:3%;
+      margin-bottom: 3%;
+    }
+    #head-rishabh{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #mail-rishabh{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2%;
+    }
+    .con-rishabh{
+      margin-top: 2%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
