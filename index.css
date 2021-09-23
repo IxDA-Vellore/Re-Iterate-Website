@@ -234,6 +234,10 @@ footer {
     line-height: 26px;
     color: white;
   }
+  .links-mobile-rishabh:hover{
+    color: #F24D1D;
+    text-decoration: none;
+  }
   #in-mobile-rishabh {
     font-family: DM Sans;
     font-style: normal;
@@ -392,6 +396,10 @@ footer {
     line-height: 26px;
     color: white;
   }
+  .links-mobile-rishabh :hover{
+    color: #F24D1D;
+    text-decoration: none;
+  }
   #in-mobile-rishabh {
     font-family: DM Sans;
     font-style: normal;
@@ -511,6 +519,9 @@ footer {
   }
   .links-rishabh {
     margin-left: 40%;
+  }
+  .links-rishabh:hover {
+    color: #f24d1d
   }
 }
 
