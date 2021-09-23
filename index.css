@@ -532,6 +532,7 @@ footer {
 }
 .container-arsal{
   position: relative;
+  overflow: hidden;
 }
 .Abouthead-arsal{ 
   font-family: 'DM Serif Display';
@@ -1471,6 +1472,7 @@ color: black;
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .faqdiv{
