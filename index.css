@@ -1427,7 +1427,7 @@ color: black;
 }
 
 .spk{
-  background-image: url("./assets/Speakers.png");
+  background-image: url("./assets/Speakers.svg");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -1500,7 +1500,7 @@ html {
 }
 
 .faqh2{
-  font-family: DM Serif Text;
+  font-family: DM Serif Display;
   font-size:28px;
   color: #ffffff;
   margin-top:5%;
