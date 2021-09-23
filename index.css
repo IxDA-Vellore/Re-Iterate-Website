@@ -585,7 +585,7 @@ font-weight: 500;
 @media (max-width: 1100px){
   .wheelimg-arsal{
   position: absolute;
-  top: -35px;
+  top: -55px;
   right: -10px;
   width: 201px;
   height: 199px;
@@ -593,7 +593,7 @@ font-weight: 500;
   }
   .Abouthead-arsal{ 
       font-family: 'DM Serif Display';
-      font-size: 44px;
+      font-size: 24px;
       margin: 0px 0px 16px 22px; 
       padding-top: 91px;
   }
@@ -605,7 +605,7 @@ font-weight: 500;
       margin-bottom: 94px;
       margin-left: 22px;
       margin-right: 22px;
-      font-size: 20px;
+      font-size: 14px;
       font-family: 'DM Sans';
       
   }
