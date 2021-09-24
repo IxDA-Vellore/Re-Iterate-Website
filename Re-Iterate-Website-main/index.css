@@ -1265,24 +1265,31 @@ footer {
 .event-name-jaydeep {
   position: absolute;
   width: 377px;
-  margin:auto;
+  height: 132px;
+  left: 38%;
+  top: 217.68px;
+
   border-radius: 0px;
 }
 .date-jaydeep {
+  position: absolute;
   width: 38%;
-  margin:auto;
+  height: 33px;
+
   font-family: DM Serif Display;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 33px;
-  
+
   color: #000000;
 
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: auto;
+  margin: 24px 0px;
+  left: 219px;
+  top: 132.8px;
   border-radius: nullpx;
 }
 
@@ -1323,8 +1330,9 @@ footer {
     padding: 5px, 0px, 5px, 0px;
     position: absolute;
 
-    margin:auto;
-    
+    left: 79.5px;
+    right: 79.5px;
+    top: 110.8px;
 
     width: 60%;
     flex: none;
@@ -1332,8 +1340,11 @@ footer {
     flex-grow: 0;
   }
   .date-jaydeep {
+    position: absolute;
     width: 170px;
-    margin:auto;
+    height: 25px;
+    left: 71px;
+    top: 73px;
 
     font-family: DM Serif Display;
     font-style: normal;
@@ -1467,21 +1478,27 @@ footer {
     padding: 5px, 0px, 5px, 0px;
     position: absolute;
 
-    margin:auto;
+    left: 34%;
+    right: 79.5px;
 
-    width: 50%;
+    width: 40%;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
   .date-jaydeep {
+    position: absolute;
     width: 170px;
-    margin:auto;
+    height: 25px;
+    left: 30%;
+    top: 73px;
+
     font-family: DM Serif Display;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
+
     color: #000000;
 
     flex: none;
@@ -1624,12 +1641,4 @@ html {
 .querycard {
   align-items: center;
   margin: auto;
-}
-
-@media (min-width: 1000px) {
-
-  .date-jaydeep {
-    margin-top:10%;
-  }
-
 }
