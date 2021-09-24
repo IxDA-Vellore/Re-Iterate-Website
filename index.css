@@ -1276,7 +1276,7 @@ footer {
   font-weight: normal;
   font-size: 24px;
   line-height: 33px;
-  
+  text-align: center;
   color: #000000;
 
   flex: none;
@@ -1334,11 +1334,11 @@ footer {
   .date-jaydeep {
     width: 170px;
     margin:auto;
-
+    text-align: center;
     font-family: DM Serif Display;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
 
     color: #000000;
@@ -1483,7 +1483,7 @@ footer {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-
+    text-align: center;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1630,6 +1630,7 @@ html {
 
   .date-jaydeep {
     margin-top:10%;
+    text-align: center;
   }
 
 }
