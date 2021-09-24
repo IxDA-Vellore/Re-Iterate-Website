@@ -1534,7 +1534,58 @@ footer {
   }
 }
 
-.spk {
+.spk{
+  background-image: url("./assets/Speakers.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.spkh1{
+  font-family:DM Serif Display;
+  color: #ffffff;
+  font-size: 48px;
+
+}
+.speakersec{
+  padding-top:5%;
+  padding-bottom: 5%;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.spkrow{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.spkcard{
+  box-shadow: 7px 7px 0px #000000;
+  border-radius: 0px!important;
+  border: 0px solid #000000 !important;
+  margin-bottom: 5%;
+  max-height: 91%;
+}
+
+
+.spkhd{
+  font-family:DM Serif Display;
+  font-size: 28px;
+  font-weight:normal;
+
+}
+
+.spktxt{
+  color:#4986c8;
+  font-family: DM Sans;
+  font: size 16px !important;;
+}
+
+.spksoc:hover{
+  color: #f24d1d !important;;
+}
+
+/* .spk {
   background-image: url("./assets/Speakers.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1577,7 +1628,7 @@ footer {
 
 .spksoc:hover {
   color: #f24d1d !important;
-}
+} */
 
 html {
   scroll-behavior: smooth;
