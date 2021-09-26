@@ -1585,7 +1585,7 @@ footer {
   color: #f24d1d !important;;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 995px){
   .spk{
     background-image: url("./assets/Speakersm.svg");
   }
