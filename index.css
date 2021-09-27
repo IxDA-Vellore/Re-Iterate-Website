@@ -1607,6 +1607,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15%;
+  align-items: center;
 }
 
 .float-rishabh{
@@ -1630,12 +1631,14 @@ footer {
   background: #f24d1d;
   border: 4px solid #000000;
   box-shadow: 8px 8px 0px #000000;
+  border-radius: 0px !important;
 }
 #partner-2-rishabh {
   width: fit-content;
   background: #218D68;
   border: 4px solid #000000;
   box-shadow: 8px 8px 0px #000000;
+  border-radius: 0px !important;
 }
 .img-partner {
   width: 200px;
@@ -1665,6 +1668,7 @@ footer {
   }
   #main-box-rishabh{
     padding-left: 10%;
+    align-items: center;
   }
 }
 
@@ -1682,6 +1686,7 @@ footer {
   }
   #main-box-rishabh{
     padding-left: 10%;
+    align-items: center;
   }
   #partner-1-rishabh {
     width: 380px;
@@ -1706,16 +1711,21 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
+    align-items: center;
   }
 }
 
 @media screen and (max-width: 500px){
+  #partner-head-rishabh {
+    text-align: center;
+    margin-left: 0%;
+}
   #partner-name-1-rishabh {
-    padding: 19px 68px;
+    padding: 19px 48px;
     width: 243px;
   }
   #partner-name-2-rishabh {
-    padding: 19px 68px;
+    padding: 19px 48px;
     width: 243px;
   }
   #partner-1-rishabh {
@@ -1734,6 +1744,14 @@ footer {
     width: 100px;
     height: 100px;
     margin-top: 1%;
+  }
+  #main-box-rishabh{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    padding-left: 5%;
   }
 }
 
