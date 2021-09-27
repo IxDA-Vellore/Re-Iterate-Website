@@ -1602,19 +1602,10 @@ footer {
   }
 }
 
-#main-box-rishabh{
-  margin-top: 2%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15%;
-  align-items: center;
-}
-
-.float-rishabh{
-  display: inline-block;
-}
-#right-partner-rishabh{
-  padding-left: 10%;
+.main-rishabh{
+  margin-top: 3% !important;
+  margin-left: 10% !important ;
+  margin-right: 10%  !important;
 }
 #partner-head-rishabh {
   margin-left: 15%;
@@ -1662,99 +1653,27 @@ footer {
   color: white;
 }
 
-@media screen and (max-width: 1400px) and (min-width: 1200px){
-  #right-partner-rishabh{
-    padding-left: 15%;
-  }
-  #main-box-rishabh{
-    padding-left: 10%;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 1200px) and (min-width:1000px) {
-  #partner-name-1-rishabh {
-    padding: 6.05995px 21.6882px;
-    width: 372px;
-  }
-  #partner-name-2-rishabh {
-    padding: 6.05995px 21.6882px;
-    width: 372px;
-  }
-  #right-partner-rishabh{
-    padding-left: 4%;
-  }
-  #main-box-rishabh{
-    padding-left: 10%;
-    align-items: center;
-  }
-  #partner-1-rishabh {
-    width: 380px;
-    box-shadow: 2.55156px 2.23261px 0px #000000;
-  }
-  #partner-2-rishabh {
-    width: 380px;
-    box-shadow: 2.55156px 2.23261px 0px #000000;
-  }
-}
-@media screen and (max-width: 1000px) and (min-width: 500px){
-  .float-rishabh{
-    display: block;
+@media screen and (max-width:1200px){
+  .column-partner-rishabh{ 
     width: fit-content;
+    margin-top: 4% !important;
+    /* padding-left: 25% !important;
+    padding-right: 25% !important; */
   }
-  #right-partner-rishabh{
-    margin-top: 4%;
-    padding-left: 0%;
-  }
-  #main-box-rishabh{
-    padding-left: 0%;
+  .main-rishabh{
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 500px){
-  #partner-head-rishabh {
-    text-align: center;
-    margin-left: 0%;
-}
-  #partner-name-1-rishabh {
-    padding: 19px 48px;
-    width: 243px;
-  }
-  #partner-name-2-rishabh {
-    padding: 19px 48px;
-    width: 243px;
   }
   #partner-1-rishabh {
-    width: 250px;
-    box-shadow: 1.55156px 1.23261px 0px #000000;
+    border: 4px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
   }
   #partner-2-rishabh {
-    width: 250px;
-    box-shadow: 1.55156px 1.23261px 0px #000000;
-  }
-  #right-partner-rishabh{
-    margin-top: 4%;
-    padding-left: 0%;
-  }
-  .img-partner {
-    width: 100px;
-    height: 100px;
-    margin-top: 1%;
-  }
-  #main-box-rishabh{
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    text-align: center;
-    padding-left: 5%;
+    border: 4px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
   }
 }
-
 
 html {
   scroll-behavior: smooth;
