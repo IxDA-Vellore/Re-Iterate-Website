@@ -1265,12 +1265,12 @@ footer {
 .event-name-jaydeep {
   position: absolute;
   width: 377px;
-  margin:auto;
+  margin: auto;
   border-radius: 0px;
 }
 .date-jaydeep {
   width: 38%;
-  margin:auto;
+  margin: auto;
   font-family: DM Serif Display;
   font-style: normal;
   font-weight: normal;
@@ -1323,8 +1323,7 @@ footer {
     padding: 5px, 0px, 5px, 0px;
     position: absolute;
 
-    margin:auto;
-    
+    margin: auto;
 
     width: 60%;
     flex: none;
@@ -1333,7 +1332,7 @@ footer {
   }
   .date-jaydeep {
     width: 170px;
-    margin:auto;
+    margin: auto;
     text-align: center;
     font-family: DM Serif Display;
     font-style: normal;
@@ -1467,7 +1466,7 @@ footer {
     padding: 5px, 0px, 5px, 0px;
     position: absolute;
 
-    margin:auto;
+    margin: auto;
 
     width: 50%;
     flex: none;
@@ -1476,7 +1475,7 @@ footer {
   }
   .date-jaydeep {
     width: 170px;
-    margin:auto;
+    margin: auto;
     font-family: DM Serif Display;
     font-style: normal;
     font-weight: normal;
@@ -1534,60 +1533,113 @@ footer {
   }
 }
 
-.spk{
+.spk {
   background-image: url("./assets/Speakers.svg");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.spkh1{
-  font-family:DM Serif Display;
+.spkh1 {
+  font-family: DM Serif Display;
   color: #ffffff;
   font-size: 48px;
-
 }
-.speakersec{
-  padding-top:5%;
+.speakersec {
+  padding-top: 5%;
   padding-bottom: 5%;
-  margin-left:5%;
-  margin-right:5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.spkrow{
+.spkrow {
   text-align: center;
   display: flex;
   justify-content: center;
 }
 
-.spkcard{
+.spkcard {
   box-shadow: 7px 7px 0px #000000;
-  border-radius: 0px!important;
+  border-radius: 0px !important;
   border: 0px solid #000000 !important;
   margin-bottom: 5%;
   max-height: 91%;
 }
 
-
-.spkhd{
-  font-family:DM Serif Display;
+.spkhd {
+  font-family: DM Serif Display;
   font-size: 28px;
-  font-weight:normal;
-
+  font-weight: normal;
 }
 
-.spktxt{
-  color:#4986c8;
+.spktxt {
+  color: #4986c8;
   font-family: DM Sans;
-  font: size 16px !important;;
+  font: size 16px !important;
 }
 
-.spksoc:hover{
-  color: #f24d1d !important;;
+.spksoc:hover {
+  color: #f24d1d !important;
 }
 
-@media screen and (max-width: 995px){
-  .spk{
+@media screen and (max-width: 995px) {
+  .spk {
     background-image: url("./assets/Speakersm.svg");
+  }
+}
+
+#main-box-rishabh{
+  margin-left: 10%;
+}
+
+#partner-head-rishabh {
+  width: 185px;
+  padding-top: 3%;
+  padding-left: 10%;
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 66px;
+  color: #000000;
+}
+#partner-1-rishabh {
+  position: static;
+  width: 417px;
+  background: #f24d1d;
+  box-shadow: 6px 6px 0px #000000;
+}
+#partner-2-rishabh {
+  position: static;
+  width: 417px;
+  background: #218D68;
+  box-shadow: 6px 6px 0px #000000;
+}
+.img-partner {
+  width: 180px;
+  height: 164.29px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+#partner-name-1-rishabh {
+  text-align: center;
+  padding: 19px 68px;
+  width: 417px;
+  background: #ff8460;
+}
+#partner-name-2-rishabh {
+  text-align: center;
+  padding: 19px 68px;
+  width: 417px;
+  background: #58AC8F;
+}
+
+.card-title{
+  color: white;
+}
+
+@media screen and (max-width: 1100px) {
+  .main-box-rishabh{
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 
@@ -1639,10 +1691,8 @@ html {
 }
 
 @media (min-width: 1000px) {
-
   .date-jaydeep {
-    margin-top:10%;
+    margin-top: 10%;
     text-align: center;
   }
-
 }
