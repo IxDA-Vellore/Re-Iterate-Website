@@ -1148,12 +1148,12 @@ footer {
   top: 0px;
   margin-left: 0%;
   background: #ffffff !important;
-  padding-left: 8% !important;
-  padding-right: 8% !important;
-  padding-top: 1% !important;
-  padding-bottom: 1% !important;
+  margin-left: 8% !important;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
   z-index: 1;
   position: relative;
+  overflow: hidden;
 }
 .jd-button-jaydeep {
   position: absolute;
