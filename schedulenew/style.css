@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+.check{
+    background-color: #A837DD;
+    height: 100vw;
+    width: 100vw;
+}
+.topheading-arsal{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 44px; */
+    font-size: 2.75em;
+
+}
+
+/* Layout  */
+.container-schedule{
+    padding-top: 9.027777vw;
+    padding-bottom: 9.027777vw;
+    padding-left: 14.722vw;
+    padding-right: 6.722vw;
+
+}
+
+.outerbox-arsal{
+    display: flex;
+    /* border: 2px solid black;  */
+    flex-direction: row;
+    justify-content: left;
+    width: fit-content;
+    /* justify-content: center; */
+
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding: 50px; */
+
+    /* margin-left: 14%; */
+}
+.box-arsal{
+ display: flex;
+ /* border: 2px solid black;  */
+ flex-direction: row;
+ justify-content: center;
+ margin-left: 0px;
+
+ padding-top: 35px;
+ padding-bottom: 50px;
+ /* padding: 6.954vh 3.47222vw; */
+ padding-left: 0px;
+ padding-right: 0px;
+}
+
+/* Cards */
+
+.day-arsal{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px 24px;
+/* padding: 2.77778vh 1.66667vw; */
+
+/* position: absolute;
+left: 0px;
+top: 0px; */
+
+/* width: 21.666667vw;
+height: 50.62586vh; */
+width: 312px;
+height: 364px;
+
+background: #FFFFFF;
+border: 3px solid #000000;
+box-sizing: border-box;
+/* box-shadow: 10px 10px 0px #FF6565; */
+}
+.day1-arsal{
+    box-shadow: 10px 10px 0px #FF6565;
+}
+.day2-arsal{
+    box-shadow: 10px 10px 0px #AB64FF;
+
+    margin-left: 50px;
+}
+.day3-arsal{
+    box-shadow: 10px 10px 0px #208D66;
+
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+/* Card texts  */
+
+.cardhead-arsal{
+
+    font-family: 'DM Serif Display';
+    /* font-size: 40px; */
+    font-size: 2.5em;
+    font-weight: 400;
+
+    margin:0px;
+    margin-bottom: 16px;
+
+
+}
+.date-arsal{
+
+    font-family: 'DM Sans';
+    /* font-size: 16px; */
+    font-size: 1em;
+    font-weight: 700;
+
+    margin: 0px;
+    margin-bottom: 24px;
+}
+.content-arsal{
+    color: #2A2A2A;
+}
+.bottomhead-arsal{
+    font-family: 'DM Sans';
+    /* font-size: 20px; */
+    font-size: 1.25em;
+    font-weight: 700;
+
+    margin: 0px;
+    margin-bottom: 8px;
+}
+.bottomtext-arsal{
+    font-family: 'DM Sans';
+    /* font-size: 18px; */
+    font-size: 1.125em;
+    font-weight: 400;
+
+    margin: 0px;
+    margin-bottom: 24px;
+}
+
+@media(max-width:1349px) and (min-width:961px){
+    .box-arsal{
+        padding-bottom: 100px;
+    }
+    .day3-arsal{
+        margin-left: 206px;
+    }
+    .day2-arsal{
+        margin-left: 100px;
+    }
+
+}
+@media(max-width:961px){
+    .outerbox-arsal{
+        flex-direction: column;
+    }
+    .topheading-arsal{
+        font-size: 24px;    
+    }
+    .box-arsal{
+        padding-top: 43px;
+        padding-bottom: 24px;
+       }
+    .day-arsal{
+    padding: 18px 11px;
+    width: 137px;
+    height: 160px;
+    }
+    .day3-arsal{
+        border: 1.31731px solid #000000;
+        box-shadow: 4.39103px 4.39103px 0px #208D66;
+
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .day2-arsal{
+        border: 1.31731px solid #000000;
+        box-shadow: 4.39103px 4.39103px 0px #AB64FF;
+        margin-left: 38px;
+    }
+    .day1-arsal{
+        border: 1.31731px solid #000000;
+        box-shadow: 4.39103px 4.39103px 0px #FF6565;
+    }
+    .cardhead-arsal{
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .date-arsal{
+        font-size: 8px;
+        margin-bottom: 10.54px;
+    }
+    .bottomhead-arsal{
+        font-size: 10px;
+        margin: 0px;
+        margin-bottom: 2px;
+    }
+    .bottomtext-arsal{
+        font-size: 8px;
+        margin: 0px;
+        margin-bottom: 10.54px;
+    }
+
+}
