@@ -1651,7 +1651,9 @@ footer {
   background: #58AC8F;
 }
 
-
+.title-rishabh{
+  color: #ffffff;
+}
 
 @media screen and (max-width:1200px) and (min-width:600px){
   .column-partner-rishabh{ 
