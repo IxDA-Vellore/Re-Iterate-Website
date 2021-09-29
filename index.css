@@ -1191,6 +1191,9 @@ footer {
     border: 4px solid #000000;
     box-shadow: 4px 4px 0px #000000;
   }
+  .title-rishabh{
+    color: #ffffff;
+  }
 }
 @media screen and (max-width:600px){
   .column-partner-rishabh{ 
@@ -1225,6 +1228,9 @@ footer {
 @media screen and (max-width:400px){
   .img-partner {
     height: 120px;
+  }
+  .title-rishabh{
+    color: #ffffff;
   }
 }
 
